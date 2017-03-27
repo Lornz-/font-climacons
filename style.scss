@@ -1,0 +1,399 @@
+@import "variables";
+
+@font-face {
+  font-family: 'climacons';
+  src:  url('#{$icomoon-font-path}/climacons.eot?eiy4zx');
+  src:  url('#{$icomoon-font-path}/climacons.eot?eiy4zx#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/climacons.ttf?eiy4zx') format('truetype'),
+    url('#{$icomoon-font-path}/climacons.woff?eiy4zx') format('woff'),
+    url('#{$icomoon-font-path}/climacons.svg?eiy4zx#climacons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="climacons-"], [class*=" climacons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'climacons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.climacons-Cloud-Download {
+  &:before {
+    content: $climacons-Cloud-Download;
+  }
+}
+.climacons-Cloud-Drizzle-Alt {
+  &:before {
+    content: $climacons-Cloud-Drizzle-Alt;
+  }
+}
+.climacons-Cloud-Drizzle-Moon-Alt {
+  &:before {
+    content: $climacons-Cloud-Drizzle-Moon-Alt;
+  }
+}
+.climacons-Cloud-Drizzle-Moon {
+  &:before {
+    content: $climacons-Cloud-Drizzle-Moon;
+  }
+}
+.climacons-Cloud-Drizzle-Sun-Alt {
+  &:before {
+    content: $climacons-Cloud-Drizzle-Sun-Alt;
+  }
+}
+.climacons-Cloud-Drizzle-Sun {
+  &:before {
+    content: $climacons-Cloud-Drizzle-Sun;
+  }
+}
+.climacons-Cloud-Drizzle {
+  &:before {
+    content: $climacons-Cloud-Drizzle;
+  }
+}
+.climacons-Cloud-Fog-Alt {
+  &:before {
+    content: $climacons-Cloud-Fog-Alt;
+  }
+}
+.climacons-Cloud-Fog-Moon-Alt {
+  &:before {
+    content: $climacons-Cloud-Fog-Moon-Alt;
+  }
+}
+.climacons-Cloud-Fog-Moon {
+  &:before {
+    content: $climacons-Cloud-Fog-Moon;
+  }
+}
+.climacons-Cloud-Fog-Sun-Alt {
+  &:before {
+    content: $climacons-Cloud-Fog-Sun-Alt;
+  }
+}
+.climacons-Cloud-Fog-Sun {
+  &:before {
+    content: $climacons-Cloud-Fog-Sun;
+  }
+}
+.climacons-Cloud-Fog {
+  &:before {
+    content: $climacons-Cloud-Fog;
+  }
+}
+.climacons-Cloud-Hail-Alt {
+  &:before {
+    content: $climacons-Cloud-Hail-Alt;
+  }
+}
+.climacons-Cloud-Hail-Moon-Alt {
+  &:before {
+    content: $climacons-Cloud-Hail-Moon-Alt;
+  }
+}
+.climacons-Cloud-Hail-Moon {
+  &:before {
+    content: $climacons-Cloud-Hail-Moon;
+  }
+}
+.climacons-Cloud-Hail-Sun-Alt {
+  &:before {
+    content: $climacons-Cloud-Hail-Sun-Alt;
+  }
+}
+.climacons-Cloud-Hail-Sun {
+  &:before {
+    content: $climacons-Cloud-Hail-Sun;
+  }
+}
+.climacons-Cloud-Hail {
+  &:before {
+    content: $climacons-Cloud-Hail;
+  }
+}
+.climacons-Cloud-Lightning-Moon {
+  &:before {
+    content: $climacons-Cloud-Lightning-Moon;
+  }
+}
+.climacons-Cloud-Lightning-Sun {
+  &:before {
+    content: $climacons-Cloud-Lightning-Sun;
+  }
+}
+.climacons-Cloud-Lightning {
+  &:before {
+    content: $climacons-Cloud-Lightning;
+  }
+}
+.climacons-Cloud-Moon {
+  &:before {
+    content: $climacons-Cloud-Moon;
+  }
+}
+.climacons-Cloud-Rain-Alt {
+  &:before {
+    content: $climacons-Cloud-Rain-Alt;
+  }
+}
+.climacons-Cloud-Rain-Moon-Alt {
+  &:before {
+    content: $climacons-Cloud-Rain-Moon-Alt;
+  }
+}
+.climacons-Cloud-Rain-Moon {
+  &:before {
+    content: $climacons-Cloud-Rain-Moon;
+  }
+}
+.climacons-Cloud-Rain-Sun-Alt {
+  &:before {
+    content: $climacons-Cloud-Rain-Sun-Alt;
+  }
+}
+.climacons-Cloud-Rain-Sun {
+  &:before {
+    content: $climacons-Cloud-Rain-Sun;
+  }
+}
+.climacons-Cloud-Rain {
+  &:before {
+    content: $climacons-Cloud-Rain;
+  }
+}
+.climacons-Cloud-Refresh {
+  &:before {
+    content: $climacons-Cloud-Refresh;
+  }
+}
+.climacons-Cloud-Snow-Alt {
+  &:before {
+    content: $climacons-Cloud-Snow-Alt;
+  }
+}
+.climacons-Cloud-Snow-Moon-Alt {
+  &:before {
+    content: $climacons-Cloud-Snow-Moon-Alt;
+  }
+}
+.climacons-Cloud-Snow-Moon {
+  &:before {
+    content: $climacons-Cloud-Snow-Moon;
+  }
+}
+.climacons-Cloud-Snow-Sun-Alt {
+  &:before {
+    content: $climacons-Cloud-Snow-Sun-Alt;
+  }
+}
+.climacons-Cloud-Snow-Sun {
+  &:before {
+    content: $climacons-Cloud-Snow-Sun;
+  }
+}
+.climacons-Cloud-Snow {
+  &:before {
+    content: $climacons-Cloud-Snow;
+  }
+}
+.climacons-Cloud-Sun {
+  &:before {
+    content: $climacons-Cloud-Sun;
+  }
+}
+.climacons-Cloud-Upload {
+  &:before {
+    content: $climacons-Cloud-Upload;
+  }
+}
+.climacons-Cloud-Wind-Moon {
+  &:before {
+    content: $climacons-Cloud-Wind-Moon;
+  }
+}
+.climacons-Cloud-Wind-Sun {
+  &:before {
+    content: $climacons-Cloud-Wind-Sun;
+  }
+}
+.climacons-Cloud-Wind {
+  &:before {
+    content: $climacons-Cloud-Wind;
+  }
+}
+.climacons-Cloud {
+  &:before {
+    content: $climacons-Cloud;
+  }
+}
+.climacons-Compass-East {
+  &:before {
+    content: $climacons-Compass-East;
+  }
+}
+.climacons-Compass-North {
+  &:before {
+    content: $climacons-Compass-North;
+  }
+}
+.climacons-Compass-South {
+  &:before {
+    content: $climacons-Compass-South;
+  }
+}
+.climacons-Compass-West {
+  &:before {
+    content: $climacons-Compass-West;
+  }
+}
+.climacons-Compass {
+  &:before {
+    content: $climacons-Compass;
+  }
+}
+.climacons-Degrees-Celcius {
+  &:before {
+    content: $climacons-Degrees-Celcius;
+  }
+}
+.climacons-Degrees-Fahrenheit {
+  &:before {
+    content: $climacons-Degrees-Fahrenheit;
+  }
+}
+.climacons-Moon-First-Quarter {
+  &:before {
+    content: $climacons-Moon-First-Quarter;
+  }
+}
+.climacons-Moon-Full {
+  &:before {
+    content: $climacons-Moon-Full;
+  }
+}
+.climacons-Moon-Last-Quarter {
+  &:before {
+    content: $climacons-Moon-Last-Quarter;
+  }
+}
+.climacons-Moon-New {
+  &:before {
+    content: $climacons-Moon-New;
+  }
+}
+.climacons-Moon-Waning-Crescent {
+  &:before {
+    content: $climacons-Moon-Waning-Crescent;
+  }
+}
+.climacons-Moon-Waning-Gibbous {
+  &:before {
+    content: $climacons-Moon-Waning-Gibbous;
+  }
+}
+.climacons-Moon-Waxing-Crescent {
+  &:before {
+    content: $climacons-Moon-Waxing-Crescent;
+  }
+}
+.climacons-Moon-Waxing-Gibbous {
+  &:before {
+    content: $climacons-Moon-Waxing-Gibbous;
+  }
+}
+.climacons-Moon {
+  &:before {
+    content: $climacons-Moon;
+  }
+}
+.climacons-Shades {
+  &:before {
+    content: $climacons-Shades;
+  }
+}
+.climacons-Snowflake {
+  &:before {
+    content: $climacons-Snowflake;
+  }
+}
+.climacons-Sun-Low {
+  &:before {
+    content: $climacons-Sun-Low;
+  }
+}
+.climacons-Sun-Lower {
+  &:before {
+    content: $climacons-Sun-Lower;
+  }
+}
+.climacons-Sun {
+  &:before {
+    content: $climacons-Sun;
+  }
+}
+.climacons-Sunrise {
+  &:before {
+    content: $climacons-Sunrise;
+  }
+}
+.climacons-Sunset {
+  &:before {
+    content: $climacons-Sunset;
+  }
+}
+.climacons-Thermometer-25 {
+  &:before {
+    content: $climacons-Thermometer-25;
+  }
+}
+.climacons-Thermometer-50 {
+  &:before {
+    content: $climacons-Thermometer-50;
+  }
+}
+.climacons-Thermometer-75 {
+  &:before {
+    content: $climacons-Thermometer-75;
+  }
+}
+.climacons-Thermometer-100 {
+  &:before {
+    content: $climacons-Thermometer-100;
+  }
+}
+.climacons-Thermometer-Zero {
+  &:before {
+    content: $climacons-Thermometer-Zero;
+  }
+}
+.climacons-Thermometer {
+  &:before {
+    content: $climacons-Thermometer;
+  }
+}
+.climacons-Tornado {
+  &:before {
+    content: $climacons-Tornado;
+  }
+}
+.climacons-Umbrella {
+  &:before {
+    content: $climacons-Umbrella;
+  }
+}
+.climacons-Wind {
+  &:before {
+    content: $climacons-Wind;
+  }
+}
+
